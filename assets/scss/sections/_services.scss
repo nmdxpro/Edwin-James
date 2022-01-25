@@ -1,0 +1,38 @@
+.services {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 81px;
+        padding-bottom: 72px;
+    }
+
+    &__content {
+        width: 369px;
+    }
+
+    &__content--title {
+        padding-top: 14px;
+        padding-bottom: 16px;
+    }
+
+    &__content--text1 {
+        padding-bottom: 23px;
+    }
+
+    &__content--text2 {
+        padding-bottom: 36px
+    }
+
+    &__content--btn {
+        display: flex;
+    }
+
+    .btn--primary::before {
+        border: 1px solid $dark;
+        color: $dark;
+    }
+
+    .btn--secondary {
+        margin-right: 18px;
+    }
+}

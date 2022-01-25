@@ -1,0 +1,33 @@
+.cover {
+    background: url("../images/cover.png");
+    height: 453px;
+
+    .container {
+        display: flex;
+        position: relative;
+        padding-top: 138px;
+    }
+
+    &__map {
+
+        position: absolute;
+        right: 0;
+        top: 11px;
+    }
+
+    h2 {
+        width: 560px;
+        padding-bottom: 10px;
+    }
+
+    p {
+        width: 656px;
+        padding-bottom: 31px;
+    }
+
+    .btn--primary::before {
+        color: $dark;
+
+        border: 1px solid $dark;
+    }
+}

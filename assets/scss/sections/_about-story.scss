@@ -1,0 +1,30 @@
+.about-story {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 78px;
+        padding-bottom: 68px;
+    }
+
+    &__title {
+        padding-top: 80px;
+        padding-bottom: 13px;
+    }
+
+    p {
+        width: 476px;
+    }
+
+    &__text1 {
+        padding-bottom: 22px;
+    }
+
+    &__text2 {
+        padding-bottom: 13px;
+    }
+
+    .btn--primary::before {
+        color: $dark;
+        border: 1px solid $dark;
+    }
+}

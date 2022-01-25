@@ -1,0 +1,23 @@
+.stats {
+    background: url("../images/stats.png");
+    height: 332px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 332px;
+    }
+
+    &__item {      
+        width: 368.5px;
+        
+        span {
+            font-size: 95px;
+        }
+
+        hr {
+            border: 1px solid $white;
+        }
+    }
+}

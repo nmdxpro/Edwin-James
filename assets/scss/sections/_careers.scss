@@ -1,0 +1,31 @@
+.careers {
+    background: url("../images/careers.png");
+    height: 457px;
+    position: relative;
+
+    
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    &__title {
+        padding-top: 298px;
+        position: relative;
+        padding-bottom: 9px;
+    }
+
+    &__text {
+        position: relative;
+        width: 929px;
+    }
+
+    .btn--primary {
+        position: absolute;
+        right: 228px;
+        bottom: 66px;
+    }
+
+}

@@ -1,0 +1,55 @@
+.about-accreditations {
+
+    .container {
+        padding-top: 105px;
+        padding-bottom: 68px;
+    }
+
+    h2 {
+        padding-bottom: 19px;
+    }
+
+    &__items--item {
+        width: 272px;
+        height: 104px;
+    }
+
+    &__items--item1, &__items--item2, &__items--item3 {
+        width: 272px !important;
+        height: 104px !important;
+    }
+
+    &__items--item4 {
+        width: 104px !important;
+        height: 104px !important;
+    }
+    //slither
+    .slick-next, .slick-prev {
+        position: absolute;
+        bottom: -3px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .slick-prev {  
+        right: 55px;   
+    }
+
+    .slick-next {
+        right: 16px;
+    }
+
+    .fa-angle-left::before {
+        content: "\f060" !important;
+        color: $dark;
+        font-size: 20px;
+    }
+
+    .fa-angle-right::before {
+        content: "\f061" !important;
+        color: $dark;
+        font-size: 20px;
+    }
+}

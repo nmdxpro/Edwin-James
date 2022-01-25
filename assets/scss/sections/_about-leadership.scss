@@ -1,0 +1,40 @@
+.about-leadership {
+    padding-top: 42px;
+    padding-bottom: 53px;
+
+    .container {
+        max-width: 1280.89px;
+        background: url("../images/about-leadership.png");
+        background-repeat: no-repeat;
+        position: relative;
+        height: 428.53px;
+    }
+
+    &__overlay {
+        height: 200.48px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+
+    &__title {
+        padding-top: 281px;
+        position: relative;
+        padding-bottom: 5px;
+        padding-left: 54px;
+    }
+
+    &__text {
+        position: relative;
+        width: 802.67px;
+        margin-left: 54px;
+    }
+
+    .btn--primary {
+        position: absolute;
+        right: 229px;
+        bottom: 61px;
+    }
+
+}

@@ -1,0 +1,17 @@
+.intro {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 67px;
+        padding-bottom: 124px;
+    }
+
+    &__title {
+        width: 350.5px;
+        padding-top: 12px;
+    }
+
+    &__text {
+        width: 768px;
+    }
+}

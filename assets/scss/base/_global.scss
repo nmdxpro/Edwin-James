@@ -1,0 +1,60 @@
+$white: #fff;
+$dark: #686869;
+$dark-grey: #A9A9A9;
+$light: #00C1D5;
+
+$font-title: "Supermolot-Bold";
+$font-base1: "Flama-Regular";
+$font-base2: "Flama-Light";
+
+.container {
+    max-width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title--primary {
+    font-family: $font-title;
+    font-size: 45px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: $white;
+}
+
+.title--secondary {
+    font-family: $font-title;
+    font-size: 45px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: $dark;
+}
+
+.text--primary {
+    font-family: $font-base1;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+}
+
+.text--secondary {
+    font-family: $font-base2;
+    font-size: 16px;
+    line-height: 24px;
+    color: $dark;
+}
+
+
+
+
+
+

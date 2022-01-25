@@ -1,0 +1,159 @@
+.footer {
+    background: $dark;
+
+    .container {
+        padding-top: 47px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 33px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .container {
+            max-width: 768px;
+            display: block;
+        }
+    }
+
+    h3 {
+        padding-bottom: 16px;
+        font-family: "Flama-Regular";
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+    }
+
+    a {
+        font-size: 12px;
+        line-height: 15px;
+        font-family: "Flama-Light";
+        color: $white;
+    }
+
+    li {
+        padding-bottom: 8px;
+    }
+
+    .links__quick--line, .links__legal--line, .links__contact--line {
+        margin-bottom: 20px;
+        border: 1px solid $dark-grey;
+    }
+
+   
+
+    .link__contact--text1, .link__contact--text2 {
+        font-size: 12px;
+        line-height: 20px;
+        font-family: "Flama-Light";
+        color: $white;
+    }
+
+    &__left--links {
+        display: flex;
+        width: 672px;
+        justify-content: space-between;
+    }
+
+    .links__quick {
+        width: 176px;
+    }
+
+    .links__legal {
+        width: 176px;
+    }
+
+    
+
+    .links__contact {
+        width: 289px;
+    }
+
+    .links__contact--in::before {
+        content: "\f08c";
+        font-family: "fontAwesome";
+        font-size: 15px;
+        margin-right: 6px;
+    }
+    
+    .links__contact--yt::before {
+        content: "\f167";
+        font-family: "fontAwesome";
+        font-size: 18px;
+        position: relative;
+        top: 1px;
+    }
+
+    .link__contact--text1 {
+        padding-bottom: 5px;
+    }
+
+    .link__contact--text2 {
+        padding-top: 8px;
+        width: 257px;
+    }
+
+    &__left--logo {
+        display: flex;
+        padding-top: 24px;
+        align-items: center;
+    }
+
+    .logo__peak {
+        padding-left: 67px;
+    }
+
+    .logo__parker {
+        padding-left: 46px;
+    }
+
+    &__email {
+        width: 368px;
+        display: block;
+        padding-top: 130px;
+    }
+
+    
+
+    &__email--text1, &__email--text2 {
+        font-family: "Flama-Light";
+        color: $white;
+    }
+
+    &__email--text1 {
+        font-size: 18px;
+        line-height: 19px;
+        padding-bottom: 18px;
+    }
+
+    &__email--text2 {
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 12px;
+        width: 324px;
+    }
+
+    input {
+        height: 45.24px;
+        width: 259px;
+        border: 1px solid $white;
+        cursor: auto;
+    }
+
+    span {
+        font-family: "Flama-Regular";
+        font-size: 14px;
+        line-height: 12px;
+        color: $white;
+    }
+
+    span::after {
+        content: "\f061";
+        font-family: "fontAwesome";
+        font-size: 11px;
+        position: relative;
+        bottom: 1px;
+        padding-left: 5px;
+        left: 4px;
+    }
+}
+

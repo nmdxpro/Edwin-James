@@ -1,0 +1,45 @@
+.nav {
+    .container {
+        max-width: 1313.7px;
+        position: absolute;
+        top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__menu--list {
+        display: flex;
+    }
+
+    .list__item--link {
+        font-family: "Supermolot-Regular";
+        font-size: 15px;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding-left: 34.4px;
+    }
+
+    .link__search::before {
+        content: "\f002";
+        font-family: "fontAwesome";
+        font-size: 12px;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .link__about::after, .link__services::after, .link__careers::after {
+        content: "\f078";
+        font-family: "fontAwesome";
+        font-size: 7px;
+        padding-left: 7px;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .list__item--link {
+        color: $white;
+    }
+}

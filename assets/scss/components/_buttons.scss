@@ -1,0 +1,33 @@
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--primary::before {
+    content: "\f061";
+    font-family: "fontAwesome";
+    color: $white;
+    padding: 14.5px 15.5px 13.5px 15.5px;
+    border: 1px solid $white;
+    position: relative;
+    bottom: 1px;
+}
+
+.btn--secondary {
+    padding: 13px 12.5px 13px 15.5px;
+    border: 1px solid $dark
+}
+
+.btn--tertiary {
+    background: $light;
+    height: 45px;
+    width: 105px;
+    position: relative;
+    right: 4px
+}
+
+
+
+

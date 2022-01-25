@@ -1,0 +1,36 @@
+.values {
+    background: $dark;
+
+    .container {
+        padding-top: 71px;
+        padding-bottom: 69px;
+        display: flex;
+        
+    }
+
+    &__title {
+        width: 275px;
+        padding-top: 10px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 861px;
+    }
+
+    &__content--item {
+        display: flex;
+        column-gap: 17px;
+    }
+
+    .item__content {
+        width: 176px;
+    }
+
+    span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

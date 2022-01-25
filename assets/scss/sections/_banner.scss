@@ -1,0 +1,49 @@
+.banner {
+    background: url( "../images/header.png");
+
+    &__title {
+        font-size: 85px;
+        line-height: 80px;
+        padding-top: 249px;
+        padding-bottom: 87px;
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 28px;
+        width: 615px;
+        color: $white;
+    }
+
+    &__detail {
+        padding-top: 192px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__detail--item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__detail--musk {
+        border-left: 1px solid $dark-grey;
+        border-right: 1px solid $dark-grey;
+        padding-right: 20px;
+        padding-left: 2px;
+    }
+
+    &__detail--peak, &__detail--parker {
+        border-right: 1px solid $dark-grey;
+        padding-right: 20px;
+    }
+
+    .item__img {
+        padding-right: 115px;
+    }
+
+    .parker__img {
+        position: relative;
+        right: 13px;
+    }
+}

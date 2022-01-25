@@ -1,0 +1,12 @@
+.about-banner {
+    background: url("../images/about-banner.png");
+    height: 478px;
+    background-position: 50%;
+
+    &__title {
+        padding-top: 228px;
+        padding-left: 7px;
+        font-size: 65px;
+        line-height: 63px;
+    }
+}

@@ -1,0 +1,88 @@
+.about-business {
+
+    background: #ECEAE9;
+
+    .container {
+        max-width: 1349px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    &__items {
+        display: flex;
+    }
+
+    &__items--item {
+        width: 456px;display: block;
+        height: 152px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #ECEAE9;
+    }
+
+    &__items--safety {
+        width: 455px;
+        background: #ECEAE9;
+    }
+
+    &__items--businesses {
+        width: 455px;
+        background: $white;
+    }
+
+    &__items--esg {
+        width: 456px;
+        border-right: 1px solid #ECEAE9;
+        background: $white;
+    }
+
+    .safety__icon {
+        display: block;
+    }
+
+    .text--primary {
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        color: $dark;
+    }
+
+    .business__icon--title {
+        position: relative;
+        right: 30px;
+    }
+
+    img {
+        padding-bottom: 11px;
+    }
+
+    .businesses__icon--img {
+        padding-left: 31px;
+    }
+
+    //content
+    &__content {
+        display: flex;
+        padding-top: 57px;
+        padding-bottom: 59px;
+        background: #ECEAE9;
+    }
+
+    h2 {
+        width: 275px;
+        margin-right: 3px;
+        margin-left: 114px;
+        padding-top: 12px;
+    }
+
+    &__content--text {
+        width: 575px;
+        margin-right: 120px;
+    }
+
+    .btn--primary::before {
+        color: $dark;
+        border: 1px solid $dark;
+    }
+}
